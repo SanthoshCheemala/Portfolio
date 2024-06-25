@@ -6,9 +6,9 @@ import { mailValidationSchema } from "@/components/contact-form/contact-form";
 import { rateLimiterApi, getUserId } from "@/utility/rate-limiter";
 import { sendMail } from "@/utility/sendMail";
 
-const REQUEST_PER_HOUR = 5 as const;
+const REQUEST_PER_HOUR = 10 as const;
 const RATELIMIT_DURATION = 3600000 as const;
-const MAX_USER_PER_SECOND = 100 as const;
+const MAX_USER_PER_SECOND = 5 as const;
 
 /*
   Rate Limiting Strategy:

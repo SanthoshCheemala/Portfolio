@@ -2,36 +2,37 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Bachelor Of Engineering in Electronics and Telecommunication",
+    title:
+      "Bachelor of Engineering in CSE with Specialization in Cyber Security",
     organisation: {
-      name: "Rizvi College Of Engineering",
-      href: "https://eng.rizvi.edu.in/",
+      name: "IIIT Kottayam",
+      href: "https://www.iiitkottayam.ac.in/",
     },
-    date: "2019-2023",
-    location: "Bandra, Mumbai",
+    date: "2022-present",
+    location: "Kottayam, Kerala",
     description:
-      "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network and Database Management.",
+      "Relevant courses included Core Computer Science Courses,Data Structures and Algorithms, Web Design, Quantum Computing, Cyber Security and Database Management.",
   },
   {
     title: "Higher Secondary School",
     organisation: {
-      name: "Mithibai College",
-      href: "https://www.mithibai.ac.in/",
+      name: "Valley Oak Junior College",
+      href: "https://valleyoak.in/",
     },
-    date: "2016-2018",
-    location: "Vile Parle, Mumbai",
+    date: "2020-2022",
+    location: "Manikonda, Hyderabad",
     description:
-      "Completed the course in Electronics Bifocal Science with 68%. Started freelancing making 3D assets for games. Got interested in game development and learned unity and c#",
+      "I completed the MPC course with a 97.5% score and achieved a 97 percentile in JEE Mains.",
   },
   {
     title: "Secondary School Education",
     organisation: {
-      name: "Holy Family High School",
-      href: "https://holyfamilyandheri.org/",
+      name: "Bheeram Sreedhar Redddy International School",
+      href: "https://www.bheeram.in/",
     },
-    date: "2017-2018",
-    location: "Andheri, Mumbai",
+    date: "2014-2020",
+    location: "Kadapa, Ap",
     description:
-      "Learned good values,dedication and disciplne. Played district football for 5 years.",
+      "Learned good values,dedication and disciplne. Played State level Hand Ball for 3 years.",
   },
 ];

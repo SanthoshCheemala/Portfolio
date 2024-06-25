@@ -5,121 +5,88 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Json Tree",
+    title: "Invest Africa",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel"],
+    tags: ["ReactJs", "Tailwindcss", "ExpressJS", "PostgreSQL"],
     image: {
-      LIGHT: "/images/projects/jsontreeLight.webp",
-      DARK: "/images/projects/jsontreeDark.webp",
+      LIGHT: "/images/projects/InvestAfrica.png",
+      DARK: "/images/projects/InvestAfrica.png",
     },
   },
   {
     index: 1,
-    title: "Many Games",
+    title: "EatsExpress",
     href: "/projects",
     tags: [
       "Reactjs",
       "Tailwindcss",
-      "Scss",
-      "Vite",
+      "TailwindCss",
       "React-router-dom",
       "Redux",
       "Vercel",
+      "Express",
     ],
     image: {
-      LIGHT: "/images/projects/manyGamesLight.webp",
-      DARK: "/images/projects/manyGamesDark.webp",
+      LIGHT: "images/projects/EatsExpress.png",
+      DARK: "images/projects/EatsExpress.png",
     },
   },
   {
     index: 2,
-    title: "Kanban",
+    title: "CampusConcern",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
+    tags: ["Reactjs", "Vite", "Tailwindcss", "ExpressJs", "React-router-dom"],
     image: {
-      LIGHT: "/images/projects/kanbanLight.webp",
-      DARK: "/images/projects/kanbanDark.webp",
+      LIGHT: "images/projects/Campus_concern.png",
+      DARK: "images/projects/Campus_concern.png",
     },
   },
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Json tree",
-    favicon: "/images/projects/logos/jsontree.ico",
-    imageUrl: [
-      "/images/projects/jsontreeLight.webp",
-      "/images/projects/jsontreeDark.webp",
-    ],
+    name: "Invest Africa",
+    favicon: "/images/projects/logos/favicon.ico",
+    imageUrl: ["/images/projects/InvestAfrica.png"],
     description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
-    liveWebsiteHref: "https://jsontree.vercel.app",
-  },
-  {
-    name: "Kanban app",
-    favicon: "/images/projects/logos/kanban.ico",
-    imageUrl: [
-      "/images/projects/kanbanLight.webp",
-      "/images/projects/kanbanDark.webp",
-      "/images/projects/kanbanCardLight.webp",
-    ],
-    description:
-      "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
-    liveWebsiteHref: "https://kannban-board.vercel.app",
-  },
-  {
-    name: "Many Games",
-    favicon: "/images/projects/logos/manygames.ico",
-    imageUrl: [
-      "/images/projects/manyGamesDark.webp",
-      "/images/projects/manyGamesLight.webp",
-      "/images/projects/manyGames2048.webp",
-      "/images/projects/manyGamesPuzzle.webp",
-      "/images/projects/manyGamesWordle.webp",
-    ],
-    description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/BUMBAIYA/ManyGames",
-    liveWebsiteHref: "https://manygames.vercel.app",
+      "Developed the Invest Africa Platform using React.js and TypeScript. This business platform connects users with African professionals, fostering collaboration and promoting business growth across the continent.",
+    sourceCodeHref: "https://github.com/SanthoshCheemala/Adam-I",
+    liveWebsiteHref: "https://adam-i.vercel.app/",
   },
   {
     name: "My portfolio",
     favicon: "/favicon.ico",
     imageUrl: [
-      "/images/projects/portfolioDark.webp",
-      "/images/projects/portfolioLight.webp",
+      "/images/projects/Porfolio.png",
+      "/images/projects/Porfolio.png",
     ],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/amitchauhan-v2",
+    sourceCodeHref: "https://github.com/santhoshcheemala",
     liveWebsiteHref: siteMetadata.siteUrl,
   },
   {
-    name: "Covid Tracker",
-    favicon: "/images/projects/logos/covidtracker.ico",
-    imageUrl: [
-      "/images/projects/covidTracker.webp",
-      "/images/projects/covidTrackerMap.webp",
-      "/images/projects/covidTrackerTable.webp",
-    ],
+    name: "Eats Express",
+    favicon: "/images/projects/logos/food-delivery.png",
+    imageUrl: ["images/projects/EatsExpress.png"],
     description:
-      "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
-    sourceCodeHref: "https://github.com/BUMBAIYA/CovidTracker",
-    liveWebsiteHref: "https://bumbaiya.github.io/CovidTracker",
+      "Developed EatsExpress using the MERN stack with TypeScript, providing a user-friendly interface similar to Zomato. It facilitates easy exploration of diverse culinary options, enhancing the dining experience with seamless functionality.",
+    sourceCodeHref: "https://github.com/SanthoshCheemala/EatsExpress",
   },
   {
-    name: "Stock predictor",
-    favicon: "/images/projects/logos/stockpredictor.ico",
-    imageUrl: [
-      "/images/projects/stockPredictor.webp",
-      "/images/projects/stockPredictorCandleChart.webp",
-      "/images/projects/stockPredictorCompareChart.webp",
-      "/images/projects/stockPredictorLineChart.webp",
-    ],
+    name: "Campus Concern",
+    favicon: "/images/projects/logos/Campus.png",
+    imageUrl: ["images/projects/Campus_concern.png"],
     description:
-      "Get prediction of opening and closing price of stocks price. Frontend is made using Reactjs and backend is made using Flask and Machine learning model are trained using Tensorflow",
-    sourceCodeHref: "https://github.com/Rohrschachh/Stock-Market-Predictor",
+      "Developed a student complaint management system utilizing the MERN stack (MongoDB, Express.js, React, Node.js), designed for efficient complaint submission, tracking, and resolution, ensuring scalability and robust security measures.",
+    sourceCodeHref: "https://github.com/BUMBAIYA/ManyGames",
   },
+  // {
+  //   name: "Gym Guru Hub",
+  //   favicon: "/images/projects/logos/Gym.webp",
+  //   imageUrl: ["images/projects/FitWeb.png"],
+  //   description:
+  //     "RapidAPI facilitates seamless data integration from various sources, enriching the gym trainer website with enhanced functionality and real-time updates.",
+  //   sourceCodeHref: "https://github.com/SanthoshCheemala/Gym-Trainer-App",
+  // },
 ];

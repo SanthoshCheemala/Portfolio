@@ -1,32 +1,24 @@
-import {
-  SiExpress,
-  SiSocketdotio,
-  SiPrisma,
-  SiNextdotjs,
-  SiFlask,
-} from "react-icons/si";
-import {
-  FramerMotionIcon,
-  ReactRouterDomIcon,
-  VitePwaIcon,
-} from "@/components/icons";
+import { SiExpress, SiNextdotjs } from "react-icons/si";
+import { FramerMotionIcon, ReactRouterDomIcon } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
 import HtmlSvg from "@/public/icons/html.svg";
 import CsssSvg from "@/public/icons/css.svg";
-import SassSvg from "@/public/icons/sass.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
 import PythonSvg from "@/public/icons/python.svg";
+import CppSvg from "@/public/icons/cpp.svg";
+import javasvg from "@/public/icons/java.svg";
+import gosvg from "@/public/icons/go.svg";
 
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
-import SolidjsSvg from "@/public/icons/solidjs.svg";
 import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
 import ViteSvg from "@/public/icons/vite.svg";
+import shadSvg from "@/public/icons/shad.svg";
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
@@ -40,6 +32,7 @@ import GitSvg from "@/public/icons/git.svg";
 import DockerSvg from "@/public/icons/docker.svg";
 import AwsSvg from "@/public/icons/aws.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
+import BurpSvg from "@/public/icons/burpsuite.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
@@ -54,10 +47,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: CsssSvg,
       },
       {
-        name: "SASS",
-        icon: SassSvg,
-      },
-      {
         name: "Javascript",
         icon: JavascriptSvg,
       },
@@ -68,6 +57,18 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Python",
         icon: PythonSvg,
+      },
+      {
+        name: "C/C++",
+        icon: CppSvg,
+      },
+      {
+        name: "Java",
+        icon: javasvg,
+      },
+      {
+        name: "Go",
+        icon: gosvg,
       },
     ],
   },
@@ -81,10 +82,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Nextjs",
         icon: SiNextdotjs,
-      },
-      {
-        name: "Solidjs",
-        icon: SolidjsSvg,
       },
       {
         name: "React Router Dom",
@@ -111,8 +108,8 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: ViteSvg,
       },
       {
-        name: "Vite PWA",
-        icon: VitePwaIcon,
+        name: "Shad-Ui",
+        icon: shadSvg,
       },
     ],
   },
@@ -127,14 +124,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Express",
         icon: SiExpress,
       },
-      {
-        name: "Socket.io",
-        icon: SiSocketdotio,
-      },
-      {
-        name: "Flask",
-        icon: SiFlask,
-      },
     ],
   },
   {
@@ -147,10 +136,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Postgress",
         icon: PostgressSvg,
-      },
-      {
-        name: "Prisma",
-        icon: SiPrisma,
       },
     ],
   },
@@ -172,6 +157,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Postman",
         icon: PostmanSvg,
+      },
+      {
+        name: "Burp Suite",
+        icon: BurpSvg,
       },
     ],
   },

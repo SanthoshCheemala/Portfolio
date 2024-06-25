@@ -15,18 +15,18 @@ export default function Home() {
     <>
       <CursorTrailCanvas className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />
       <NextSeo
-        title="Amit Chauhan | React and Frontend Developer"
-        description="Explore the professional portfolio of Amit Chauhan, a skilled React and Frontend Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
+        title="Santhosh Cheemala | React and Frontend Developer"
+        description="Explore the professional portfolio of Santhosh Cheemala, a skilled MERN Stack Developer with 1 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Amit Chauhan - React and Frontend Developer Portfolio",
+          title: "Santhosh Cheemala - MERN Stack Developer Portfolio",
           description:
-            "Dive into the world of web development with Amit Chauhan. Discover a React and Frontend Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+            "Dive into the world of web development with Santhosh Cheemala. Discover a MERN Stack with 1 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
+              alt: "Santhosh Cheemala - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,
@@ -39,7 +39,7 @@ export default function Home() {
           {
             property: "keywords",
             content:
-              "React Developer, Frontend Developer, Web Developer, JavaScript, HTML, CSS, Portfolio, UI/UX, React.js, Frontend Development, Web Development, JavaScript Developer, Responsive Design",
+              "Projects, Portfolio, MERN Stack Developer, Web Development, JavaScript, TypeScript, HTML, CSS, Web Applications",
           },
         ]}
       />

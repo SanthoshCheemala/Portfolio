@@ -27,14 +27,15 @@ export default function AboutHero() {
         <AnimatePresence>
           <FadeUp key="title-greeting" duration={0.6}>
             <h1 className="text-6xl font-bold text-accent sm:text-7xl md:text-6xl lg:text-5xl xl:text-7xl">
-              Hi, I&apos;m Amit Chauhan
+              Hi, I&apos;m Santhosh Cheemala
             </h1>
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              I turn vision into reality with code. Whether I&apos;m working on
-              a website or any digital product, I bring my commitment to design
-              excellence and user-centered thinking to every project I work on.
+              I transform ideas into reality through coding expertise, whether
+              I&apos;am developing a web application or any other digital
+              solution, consistently applying my dedication to innovative design
+              and user-centric principles to each project.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
@@ -59,7 +60,7 @@ export default function AboutHero() {
               />
             </div>
             <span className="text-lg font-medium text-foreground">
-              Mumbai, India
+              Andhra Pradesh, India
             </span>
           </FadeRight>
         </AnimatePresence>

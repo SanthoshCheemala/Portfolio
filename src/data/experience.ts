@@ -2,35 +2,36 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Reactjs Frontend Developer",
+    title: "Full stack Intern",
     organisation: {
-      name: "Skima",
-      href: "https://skima.ai/",
+      name: "Adam-I",
+      href: "https://www.adam-i.com/",
     },
-    date: "Oct 2023 - Present",
-    location: "Mumbai",
-    description: "Reactjs and Nextjs app development",
-  },
-  {
-    title: "Engineering Trainee",
-    organisation: {
-      name: "Hexaware",
-      href: "https://hexaware.com/",
-    },
-    date: "July 2023 - Sep 2023",
+    date: "Dec 2023 - May 2024",
     location: "Remote",
     description:
-      "Learned to work we monorepo and got to learn application architecture, scalling and build tooling to improve CI/CD of micro services.",
+      "Collaborated with a team using version control to develop the Invest Africa Platform with React.js for the front end and TypeScript for the back end.",
   },
   {
-    title: "Frontend Developer Intern",
+    title: "Sub-lead of Web-Development in Beta Labs",
     organisation: {
-      name: "Master Infotech",
-      href: "https://masterinfotech.com/",
+      name: "Beta Labs",
+      href: "https://www.linkedin.com/company/betalabs-iiitkottayam/mycompany/",
     },
-    date: "Winter - 2022",
-    location: "Remote",
+    date: "2023 - present",
+    location: "hybrid",
     description:
-      "Worked on a team responsible for developing new features and updating old codebases to latest technologies. Learned alot about web development and CI/CD development cycle.",
+      "Leading web development in Beta Labs, focusing on GitHub collaboration and project management efficiency to enhance outcomes and streamline processes.",
+  },
+  {
+    title: "Smart India Hackathon",
+    organisation: {
+      name: "Smart India Hackathon",
+      href: "https://www.sih.gov.in/",
+    },
+    date: "August 2023 - November 2023",
+    location: "hybrid",
+    description:
+      "Developed a chatbot to recognize individuals' prakriti, focusing on both frontend and backend development.",
   },
 ];

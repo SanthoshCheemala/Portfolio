@@ -26,7 +26,6 @@
     --muted: 240 3.7% 15.9%;
     --muted-foreground: 240 5% 64.9%;
   }
-
   * {
     @apply border-border;
   }
