@@ -5,8 +5,8 @@ export const siteMetadata = {
   description: "MERN Stack Developer",
   language: "en-us",
   theme: "light",
-  siteName: "santhosh.me",
-  siteUrl: "https://santhosh.me",
+  siteName: "Santhosh Cheemala Portfolio",
+  siteUrl: "https://portfolio-two-rho-38.vercel.app",
   siteRepo: "https://github.com/SanthoshCheemala/Portfolio",
   siteLogo: "/favicon.ico",
   image: "/static/homepage.png",
@@ -17,5 +17,5 @@ export const siteMetadata = {
   twitter: "https://twitter.com/Cheema3Santhosh",
   linkedin: "https://www.linkedin.com/in/santhosh-cheemala-93baa3257",
   locale: "en-US",
-  googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",
+  googleSiteVerification: "EnS1B6mSj8DJvvPNcDsvDEsIOduYjJF-BZ2qW6Lr4eM",
 };
